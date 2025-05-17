@@ -1,5 +1,5 @@
 --[[
-    --A program which sends TP requests to a bot with the program "tpHandler.lua" running--
+    --A program which sends TP requests MANUALLY to a bot hosting the program "tpHandler.lua" running--
 
     Intended for use with a pocket computer
     Requires a modem
