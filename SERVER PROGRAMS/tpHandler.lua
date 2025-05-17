@@ -59,7 +59,7 @@ function recieveTransferRequest()
         else
             print("Recieved transfer request from " .. senderID .. " but no LOCATIONS were found.")
             rednet.send(senderID, "transferDeny:No LOCATIONS found.", "transferReply") -- deny + denial message
-            return senderID, nil, nil
+            return senderID, message, nil
         end
     end
 end

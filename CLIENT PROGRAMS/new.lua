@@ -6,6 +6,7 @@ local TURTLEID = config.TURTLEID
 local MODEM = peripheral.find("modem")
 if MODEM then
 else
+    print("No modem found.")
     return
 end
 rednet.open(peripheral.getName(MODEM))
